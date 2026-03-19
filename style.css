@@ -1,0 +1,238 @@
+body {
+  font: 15px/1.5 Ariel, Helvetica,sans-serif;
+  padding:10;
+  margin:10;
+  background-color: white
+}
+
+@keyframes {
+  from{
+ transform: scale( 0.9s)
+ opacity:0;
+  }
+  to {
+    transform: scale (1);
+    opacity(1)
+  }
+}
+.distance {
+  text-align: center;
+  color: #B8860B;
+}
+.affordable {
+  text-align: center;
+  background-color: #B8860B;
+  color: black;
+  font-size: 10px;
+font-family: "Times New Roman", serif;
+}
+
+footer {
+color: black;
+background-color: #B8860B;
+text-align: center
+margin-bottom: 100px;
+font-size: 10px;
+font-style: helvetica;
+text-align: center;
+}
+
+img {
+  border: 
+  border-radius: 5px;
+  border-color: #B8860B;
+}
+
+header {
+  background-color: #B8860B;
+}
+
+.hel {
+  border-radius: 50px;
+}
+
+.images {
+  text-align: center;
+display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 images per row */
+  gap: 10px;
+}
+
+.grid img {
+  width: 100%;
+  height: auto;
+}
+
+
+.images-row  {
+  width: 200px; /* adjust size */
+  height: auto;
+}
+
+
+ul {
+  color: black;
+}
+
+button {
+  background-color: black;
+  color: #B8860B;
+}
+
+.home {
+  margin-bottom: 10px;
+}
+
+.about {
+  margin-bottom: 10px;
+}
+
+.contact {
+  margin-bottom: 10px;
+}
+.services {
+  margin-bottom: 10px;
+}
+
+.about {
+  margin-bottom: 10px;
+}
+
+h1 {
+  color: #B8860B;
+  font-size: 10px;
+}
+.hello {
+  font-size: 10px;
+}
+h2 {
+  text-align: center;
+  font-size: 15px;
+  color: #B8860B;
+  margin-bottom: 100px;
+  margin-top: 20px;
+  border-radius: 50px;
+  font-family: "Times New Roman", serif;
+}
+
+
+.images:active {
+  transform: scale (1.1);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+}
+
+
+  
+
+h3 {
+  font-size: 10px;
+  font-style: italic;
+  border: solid;
+  background-color: black;
+  color: white;
+  border-color: black;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.fade-text {
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.fade-text {
+  display: inline-block;
+  padding-left: 100%;
+  animation: scroll 10s linear infinite;
+}
+
+@keyframes scroll {
+  from{
+  transform: translatex(0);
+  }
+  to{
+    transform: translatex(-100%);
+  }
+}
+
+body {
+  transform: translateX(100%);
+  animation: slideIn 0.5s ease forwards;
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateX(0);
+  }
+}
+
+img {
+  -webkit-tap-highlight-color: transparent;
+}
+
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+img {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+img:active {
+  transform: scale(1.1);
+  opacity: 0.9;
+}
+
+.custom {
+  border: solid;
+}
+
+.handcraft {
+  border: solid;
+  margin-top: 5px;
+}
+
+.events {
+  border: solid;
+  margin-top: 5px;
+}
+
+.female {
+  border: solid;
+  margin-top: 5px;
+}
+
+.bespoke {
+  border: solid;
+  margin-top: 5px;
+}
+
+.kid {
+  border: solid;
+margin-top: 5px;
+}
+
+.more {
+  border: solid;
+  margin-top: 5px;
+}
+.center {
+  text-align: center;
+}
+
+.fred {
+  margin-left: 150px;
+  border-radius: 100px;
+}
+
+.divide {
+  background-color: black;
+  border-radius: 10px;
+}
